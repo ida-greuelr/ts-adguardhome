@@ -10,7 +10,7 @@ This image is based on my [tailscale-node](https://github.com/ida-greuelr/tailsc
 | `TS_HOSTNAME`       | ts-adguard      |  |
 | `AG_CONFIG_URL`     | ""              | When passing a valid url which will result in ${AG_CONFIG_URL}/AdGuardHome.yaml</br> AdGuardHome will youse this as a [template config](#template-config)|
 | `AG_USER`           | admin           | This username will be used for the AdGuardHome admin panel if you provide a template config |
-| `AG_HTPASSWD`           | admin           | Same as user [details here](#ag_htpasswd) |
+| `AG_HTPASSWD`       | admin123        | Same as user [details here](#ag_htpasswd) |
 
 To run your ephemeral node simply exececute:
 
