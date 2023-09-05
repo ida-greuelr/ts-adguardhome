@@ -8,7 +8,7 @@ This image is based on my [tailscale-node](https://github.com/ida-greuelr/tailsc
 | `TS_UP`             | true            | disable the setup of yout tailscale connection, e.g. debug purpose |
 | `TS_CERT`           | true            | _tailscale will try to [fetch a SSL cert](https://tailscale.com/kb/1153/enabling-https/?q=https#provision-tls-certificates-for-your-devices)_ |
 | `TS_HOSTNAME`       | ts-adguard      |  |
-| `AG_CONFIG_URL`     | ""              | When passing a valid url which will result in ${AG_CONFIG_URL}/AdGuardHome.yaml</br> AdGuardHome will youse this as a [template config](#template-config)|
+| `AG_CONFIG_URL`     | ""              | A valid url which which provides a [template config](#template-config)|
 | `AG_USER`           | admin           | This username will be used for the AdGuardHome admin panel if you provide a template config |
 | `AG_HTPASSWD`       | admin123        | Same as user [details here](#ag_htpasswd) |
 
